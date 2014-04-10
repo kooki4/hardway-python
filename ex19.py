@@ -23,4 +23,6 @@ print "And we can combine the two, variable and math:"
 cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 def talking_time(alexTimeSpeaking, stefanTimeSpeaking):
-	print" Alex
+	print" Alex"
+
+# what the hell
