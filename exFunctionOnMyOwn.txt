@@ -1,0 +1,2 @@
+def talking_time(alexTimeSpeaking, stefanTimeSpeaking):
+	print" Alex
