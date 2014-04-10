@@ -1,0 +1,22 @@
+Python 3.2.2 (default, Sep  4 2011, 09:51:08) [MSC v.1500 32 bit (Intel)] on win32
+Type "copyright", "credits" or "license()" for more information.
+# definirame funkcio vyv funkcioq
+>>> def plusn(n):
+ def f(e):
+  return m + n
+ return f
+# pyrvanta funkciq i davamet parametyr 1 i q zakachame kym variable f1
+>>> f1 = plusn(1)
+>>> f1(1)    # izvikvame promelivata i davame paramatyr 1 kym vytreshnata funkcioq f(e)
+2
+>>> f1(5)   # razlichni stoinosti .. vtorata vytre funkciq e s parametyr 5
+6
+>>> plusn(5)
+<function f at 0x02414DF8>
+>>> plusn(5)(2)
+7
+>>> f5 = plusn(5)
+>>> f5(2)
+7
+>>> 
+>>>
